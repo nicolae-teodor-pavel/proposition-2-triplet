@@ -1,0 +1,32 @@
+sentences_cnt 80709
+
+----------------------------
+
+set(['VB', 'VBG', 'VBD', 'VBN', 'VBP', 'VBZ'])
+verbs cnt 137558
+
+----------------------------
+
+vbz_cnt 54547
+vbg_cnt 61524
+vbp_cnt 8403
+vb_cnt 3705
+vbd_cnt 5632
+vbn_cnt 3747
+vbother_cnt 0
+
+----------------------------
+
+vbz_sample
+[('A faucet is running while a bird stands in the sink below.', 'is'), ('A bird is playing in a sink with running water.', 'is'), ('A bird is taking a bath.', 'is'), ('An aeroplane is flying in the air.', 'is'), ('An airplane is flying in the air.', 'is'), ('the person is doing the something', 'is'), ('A man is playing a guitar.', 'is'), ('A person is performing with his guitar.', 'is'), ('The man is playing the guitar.', 'is'), ('A man is playing a guitar.', 'is')]
+vbg_sample
+[('A bird is bathing in a sink under running water.', 'bathing'), ('a bird in a sink n playing with water', 'playing'), ('a plane flying in the sky', 'flying'), ('An aeroplane is flying.', 'flying'), ('An aeroplane is flying.', 'flying'), ('An airplane is flying with blue sky in the background.', 'flying'), ('A commercial jet if flying', 'flying'), ('an airplane flying in the sky.', 'flying'), ('Men are flipping large tires in a race.', 'flipping'), ('In a race held, each of the two men is moving a huge tire by tumbling them repeatedly on a road lined with people.', 'tumbling')]
+vbp_sample
+[('Two men are rolling huge tires sideways down a street while spectators watch.', 'watch'), ('Men are pushing large tires.', 'are'), ('The men are rolling huge tires in a race.', 'are'), ('A group of boys are jumping into a river.', 'are'), ('Two men dive into the water, where two others are already swimming.', 'dive'), ('Men are diving in the river.', 'are'), ('Men are playing simulated baseball in the park.', 'are'), ("Panda's are eating.", 'are'), ('Panda cubs drink from baby bottles.', 'drink'), ('women are cooking in the kichen', 'are')]
+vb_sample
+[('Woman teaches on how to cook salsa.', 'cook'), ('A woman is demonstrating as to how to play a violin.', 'play'), ('The woman is showing how to prepare mango fruits.', 'prepare'), ('A woman shows how to remove mango cover.', 'remove'), ('Three people are getting ready to play baseball.', 'play'), ('a dog trying to catch the ball.', 'catch'), ('how to make a wedding cake', 'make'), ('A person is give milk to baby panda', 'baby'), ('A man feeding milk to baby panda.', 'baby'), ('A small cat is trying to catch a cord.', 'catch')]
+vbd_sample
+[('The white birt took a bath in the sink.', 'took'), ('A man strummed his guitar on his patio.', 'strummed'), ('The girl sliced an onion.', 'sliced'), ('A musical group givinig his rock perfomance on stage.', 'givinig'), ('Two men were playing catch with a baseball.', 'were'), ('The lady rolled the dough.', 'rolled'), ('The man played his trumpet.', 'played'), ('The dogs walked  beside the man in the field.', 'walked'), ('The man rode his bike off the rock.', 'rode'), ('The couple kissed passionately.', 'kissed')]
+['mv89psg6zh4_33_46', 'g36ho6UrBz0_5_20', '04Gt01vatkk_248_265', 'M_TP6UTrh30_343_358', 'rQuNYxNmA6M_0_4', 'DBvSfds3FH4_76_80', 'nS6oQxX_Qi8_2_12', 'nwk4m329bLw_2_10', 'lAznAeFFldg_6_10', 'E6sqA9QtV5I_195_201']
+vbn_sample
+[('A horse is driven by a woman.', 'driven'), ('We have never heard of the cucumber water, but we made it and it was tasted fantastic.', 'tasted'), ('A dog is shown urinating off of a wooden deck into a body of water.', 'shown'), ('A puppy is boat beagle', 'boat'), ('A man is go to scatting', 'go'), ('A rat is shown.', 'shown'), ('A person is adding pepper to a container filled with water.', 'filled'), ('Rice and water is stired.', 'stired'), ('The black cat is drinking water from the pipe attached in a wash basin', 'attached'), ('A soccer ball is being kicked.', 'kicked')]

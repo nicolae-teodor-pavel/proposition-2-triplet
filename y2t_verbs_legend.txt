@@ -1,0 +1,7 @@
+VB - go - base	
+VBZ - goes - 3rd singular present
+VBN - gone - past participle
+VBG - going - gerund
+VBD - went - simple past
+
+present tense verb (VBP)

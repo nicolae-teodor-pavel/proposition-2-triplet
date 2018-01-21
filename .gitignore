@@ -99,3 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+# ADD HERE NEW STUFF
+YouTubeClips.tar
+YouTubeClips/
+youtube2text_iccv15/
+youtube2text_iccv15*
+annotations/
+annotations_trainval2017.zip
+dataset/
