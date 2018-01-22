@@ -1,0 +1,98 @@
+v_QOlSCBRmfWY
+[u'A young woman is seen standing in a room and leads into her dancing.', u' The girl dances around the room while the camera captures her movements.', u' She continues dancing around the room and ends by laying on the floor.']
+A young woman is seen standing in a room and leads into her dancing.
+{'prepositions': {u'into': u'dancing', u'in': u'room'}, 'complement': u'room', 'verb': u'is seen standing', 'subject': u'woman'}
+ The girl dances around the room while the camera captures her movements.
+{'prepositions': {u'while': u'camera'}, 'complement': u'movements', 'verb': u'captures', 'subject': u'girl'}
+ She continues dancing around the room and ends by laying on the floor.
+{'prepositions': {u'on': u'floor', u'by': u'floor'}, 'complement': u'dancing', 'verb': u'continues', 'subject': ''}
+----------
+
+v_ehGHCYKzyZ8
+[u'The video starts with a title logo sequence.', u' A man and woman are in a living room demonstrating exercises.', u' The woman lays on the ground.', u" The man starts pointing to different areas of the woman's body as she does an exercise.", u' The woman begins to do small sit ups.', u' The woman ends with a final title logo sequence.']
+The video starts with a title logo sequence.
+{'prepositions': {u'with': u'title'}, 'complement': '', 'verb': '', 'subject': u'video'}
+ A man and woman are in a living room demonstrating exercises.
+{'prepositions': {u'in': u'room'}, 'complement': u'room', 'verb': u'are', 'subject': u'man'}
+ The woman lays on the ground.
+{'prepositions': {u'on': u'ground'}, 'complement': u'ground', 'verb': u'lays', 'subject': u'woman'}
+ The man starts pointing to different areas of the woman's body as she does an exercise.
+{'prepositions': {u'of': u'woman'}, 'complement': u'areas', 'verb': u'starts pointing', 'subject': u'man'}
+ The woman begins to do small sit ups.
+{'prepositions': {}, 'complement': u'sit', 'verb': u'begins', 'subject': u'woman'}
+ The woman ends with a final title logo sequence.
+{'prepositions': {u'with': u'title'}, 'complement': u'title', 'verb': u'ends', 'subject': u'woman'}
+----------
+
+v_nwznKOuZM7w
+[u'Two people are seen moving around a kitchen quickly performing various tasks and sitting down.', u' They then wax down a ski in the kitchen while continuing to move around.']
+Two people are seen moving around a kitchen quickly performing various tasks and sitting down.
+{'prepositions': {u'down': ''}, 'complement': u'kitchen', 'verb': u'are seen moving', 'subject': u'people'}
+ They then wax down a ski in the kitchen while continuing to move around.
+{'prepositions': {u'down': u'ski', u'while': '', u'in': u'kitchen'}, 'complement': '', 'verb': u'continuing', 'subject': u'wax'}
+----------
+
+v_ogQozSI5V8U
+[u'We see a hallway with a wooden floor.', u' A dog in socks walks slowly out onto the floor as a lady films him.', u' The dog turns around and goes back to the other room.']
+We see a hallway with a wooden floor.
+{'prepositions': {u'with': u'floor'}, 'complement': u'hallway', 'verb': u'see', 'subject': ''}
+ A dog in socks walks slowly out onto the floor as a lady films him.
+{'prepositions': {u'out': u'floor', u'in': u'socks'}, 'complement': u'floor', 'verb': u'walks', 'subject': u'dog'}
+ The dog turns around and goes back to the other room.
+{'prepositions': {}, 'complement': u'room', 'verb': u'turns', 'subject': u'dog'}
+----------
+
+v_nHE7u40plD0
+[u'A woman and a man are sitting on the sidewalk playing music.', u' People stand next to them and watch them play.', u' A little boy holding a yellow ball walks by.', u' A man poses for a picture in front of them.']
+A woman and a man are sitting on the sidewalk playing music.
+{'prepositions': {u'on': u'sidewalk'}, 'complement': u'sidewalk', 'verb': u'are sitting', 'subject': u'woman'}
+ People stand next to them and watch them play.
+{'prepositions': {}, 'complement': '', 'verb': u'stand', 'subject': u'People'}
+ A little boy holding a yellow ball walks by.
+{'prepositions': {u'by': ''}, 'complement': u'ball', 'verb': u'holding', 'subject': u'boy'}
+ A man poses for a picture in front of them.
+{'prepositions': {u'of': '', u'for': u'picture', u'in': u'front'}, 'complement': u'picture', 'verb': u'poses', 'subject': u'man'}
+----------
+
+v_69IsHpmRyfk
+[u'A young girl is seen sitting in a chair with a person standing next to her.', u' The person next to her then piercing one ear followed by the other.', u' The person rubs lotion on the piercings afterwards.']
+A young girl is seen sitting in a chair with a person standing next to her.
+{'prepositions': {u'with': u'person', u'in': u'chair'}, 'complement': u'chair', 'verb': u'is seen sitting', 'subject': u'girl'}
+ The person next to her then piercing one ear followed by the other.
+{'prepositions': {u'by': ''}, 'complement': u'ear', 'verb': u'piercing', 'subject': u'person'}
+ The person rubs lotion on the piercings afterwards.
+{'prepositions': {u'on': u'piercings'}, 'complement': '', 'verb': '', 'subject': u'person'}
+----------
+
+v_D18b2IZpxk0
+[u'A woman is shown riding a camel past pyramids in Egypt.', u' The camel walks as the woman leans forward.', u' And hand covers the lens as the harness is shown.']
+A woman is shown riding a camel past pyramids in Egypt.
+{'prepositions': {u'in': ''}, 'complement': u'camel', 'verb': u'is shown riding', 'subject': u'woman'}
+ The camel walks as the woman leans forward.
+{'prepositions': {}, 'complement': u'woman', 'verb': u'walks', 'subject': u'camel'}
+ And hand covers the lens as the harness is shown.
+{'prepositions': {}, 'complement': u'lens', 'verb': u'covers', 'subject': u'hand'}
+----------
+
+v_pizl41xmw7k
+[u'A child mops the floor of a hallway in a house.', u' The child sets the mop down and plays with her family member.', u' The child walks into the bedroom area and continues to mop the floor.']
+A child mops the floor of a hallway in a house.
+{'prepositions': {u'of': u'hallway', u'in': u'house'}, 'complement': '', 'verb': '', 'subject': u'child'}
+ The child sets the mop down and plays with her family member.
+{'prepositions': {u'down': u'family', u'with': u'family'}, 'complement': u'family', 'verb': u'sets', 'subject': u'child'}
+ The child walks into the bedroom area and continues to mop the floor.
+{'prepositions': {u'into': u'bedroom'}, 'complement': u'bedroom', 'verb': u'walks', 'subject': u'child'}
+----------
+
+v_oP77DgsbhKQ
+[u'A man is seen kneeling down on the floor speaking to the camera.', u' The man mixes up various ingredients and begins laying plaster on the floor.', u' He measures the floor and tiles and cuts out a piece of tile to lay on the floor.', u' He continues laying tiles on the floor while looking back to speak to the camera.']
+A man is seen kneeling down on the floor speaking to the camera.
+{'prepositions': {u'down': u'floor', u'on': u'floor'}, 'complement': u'floor', 'verb': u'is seen kneeling down', 'subject': u'man'}
+ The man mixes up various ingredients and begins laying plaster on the floor.
+{'prepositions': {u'on': u'floor'}, 'complement': u'plaster', 'verb': u'begins laying', 'subject': u'man'}
+ He measures the floor and tiles and cuts out a piece of tile to lay on the floor.
+{'prepositions': {u'of': u'tile', u'on': u'floor', u'out': u'piece'}, 'complement': u'floor', 'verb': u'measures', 'subject': ''}
+ He continues laying tiles on the floor while looking back to speak to the camera.
+{'prepositions': {u'on': u'floor', u'while': u'camera'}, 'complement': u'tiles', 'verb': u'continues laying', 'subject': ''}
+----------
+

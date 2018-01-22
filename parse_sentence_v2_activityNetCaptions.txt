@@ -1,0 +1,402 @@
+v_QOlSCBRmfWY
+[u'A young woman is seen standing in a room and leads into her dancing.', u' The girl dances around the room while the camera captures her movements.', u' She continues dancing around the room and ends by laying on the floor.']
+
+A young woman is seen standing in a room and leads into her dancing.
+
+Verbs [u'is seen standing', u'leads']
+parse_simple_sentence A young woman is seen standing in a room 
+Subject A young woman
+Verb is seen standing
+
+parse_simple_sentence leads into her dancing.
+Subject leads
+Verb leads
+
+ The girl dances around the room while the camera captures her movements.
+
+Verbs [u'dances', u'captures']
+parse_simple_sentence  The girl dances around the room
+Subject The girl
+Verb dances
+
+parse_simple_sentence the camera captures her movements.
+Subject the camera
+Verb captures
+
+ She continues dancing around the room and ends by laying on the floor.
+
+Verbs [u'continues dancing', u'laying']
+parse_simple_sentence  She continues dancing around the room and ends by laying on the floor.
+Subject She
+Verb continues dancing
+
+----------
+
+v_ehGHCYKzyZ8
+[u'The video starts with a title logo sequence.', u' A man and woman are in a living room demonstrating exercises.', u' The woman lays on the ground.', u" The man starts pointing to different areas of the woman's body as she does an exercise.", u' The woman begins to do small sit ups.', u' The woman ends with a final title logo sequence.']
+
+The video starts with a title logo sequence.
+
+Verbs [u'starts']
+parse_simple_sentence The video starts with a title logo sequence.
+Subject The video
+Verb starts
+
+ A man and woman are in a living room demonstrating exercises.
+
+Verbs [u'are', u'demonstrating']
+parse_simple_sentence  A man and woman are in a living room demonstrating exercises.
+Subject A man
+Verb are
+
+ The woman lays on the ground.
+
+Verbs [u'lays']
+parse_simple_sentence  The woman lays on the ground.
+Subject The woman
+Verb lays
+
+ The man starts pointing to different areas of the woman's body as she does an exercise.
+
+Verbs [u'starts pointing', u'does']
+parse_simple_sentence  The man starts pointing to different areas of the woman's body
+Subject The man
+Verb starts pointing
+
+parse_simple_sentence she does an exercise.
+Subject she
+Verb does
+
+ The woman begins to do small sit ups.
+
+Verbs [u'begins', u'do']
+parse_simple_sentence  The woman begins to do small sit ups.
+Subject The woman
+Verb begins
+
+ The woman ends with a final title logo sequence.
+
+Verbs [u'ends']
+parse_simple_sentence  The woman ends with a final title logo sequence.
+Subject The woman
+Verb ends
+
+----------
+
+v_nwznKOuZM7w
+[u'Two people are seen moving around a kitchen quickly performing various tasks and sitting down.', u' They then wax down a ski in the kitchen while continuing to move around.']
+
+Two people are seen moving around a kitchen quickly performing various tasks and sitting down.
+
+Verbs [u'are seen moving', u'performing', u'sitting']
+parse_simple_sentence Two people are seen moving around a kitchen quickly performing various tasks 
+Subject 
+Verb are seen moving
+
+parse_simple_sentence sitting down.
+Subject 
+Verb sitting
+
+ They then wax down a ski in the kitchen while continuing to move around.
+
+Verbs [u'wax', u'continuing', u'move']
+parse_simple_sentence  They then wax down a ski in the kitchen
+Subject They
+Verb wax
+
+parse_simple_sentence continuing to move around.
+Subject 
+Verb continuing
+
+----------
+
+v_ogQozSI5V8U
+[u'We see a hallway with a wooden floor.', u' A dog in socks walks slowly out onto the floor as a lady films him.', u' The dog turns around and goes back to the other room.']
+
+We see a hallway with a wooden floor.
+
+Verbs [u'see']
+parse_simple_sentence We see a hallway with a wooden floor.
+Subject We
+Verb see
+
+ A dog in socks walks slowly out onto the floor as a lady films him.
+
+Verbs [u'walks']
+parse_simple_sentence  A dog in socks walks slowly out onto the floor
+Subject A dog
+Verb walks
+
+parse_simple_sentence a lady films him.
+Subject a lady films
+Verb None
+
+ The dog turns around and goes back to the other room.
+
+Verbs [u'turns', u'goes']
+parse_simple_sentence  The dog turns around 
+Subject The dog
+Verb turns
+
+parse_simple_sentence goes back to the other room.
+Subject 
+Verb goes
+
+----------
+
+v_nHE7u40plD0
+[u'A woman and a man are sitting on the sidewalk playing music.', u' People stand next to them and watch them play.', u' A little boy holding a yellow ball walks by.', u' A man poses for a picture in front of them.']
+
+A woman and a man are sitting on the sidewalk playing music.
+
+Verbs [u'are sitting']
+parse_simple_sentence A woman and a man are sitting on the sidewalk playing music.
+Subject A woman
+Verb are sitting
+
+ People stand next to them and watch them play.
+
+Verbs [u'stand', u'watch', u'play']
+parse_simple_sentence  People stand next to them 
+Subject People
+Verb stand
+
+parse_simple_sentence watch them play.
+Subject 
+Verb watch
+
+ A little boy holding a yellow ball walks by.
+
+Verbs [u'holding']
+parse_simple_sentence  A little boy holding a yellow ball walks by.
+Subject A little boy
+Verb holding
+
+ A man poses for a picture in front of them.
+
+Verbs [u'poses']
+parse_simple_sentence  A man poses for a picture in front of them.
+Subject A man
+Verb poses
+
+----------
+
+v_69IsHpmRyfk
+[u'A young girl is seen sitting in a chair with a person standing next to her.', u' The person next to her then piercing one ear followed by the other.', u' The person rubs lotion on the piercings afterwards.']
+
+A young girl is seen sitting in a chair with a person standing next to her.
+
+Verbs [u'is seen sitting', u'standing']
+parse_simple_sentence A young girl is seen sitting in a chair with a person standing next to her.
+Subject A young girl
+Verb is seen sitting
+
+ The person next to her then piercing one ear followed by the other.
+
+Verbs [u'piercing', u'followed']
+parse_simple_sentence  The person next to her then piercing one ear followed by the other.
+Subject The person
+Verb piercing
+
+ The person rubs lotion on the piercings afterwards.
+
+Verbs []
+parse_simple_sentence  The person rubs lotion on the piercings afterwards.
+Subject The person
+Verb None
+
+----------
+
+v_D18b2IZpxk0
+[u'A woman is shown riding a camel past pyramids in Egypt.', u' The camel walks as the woman leans forward.', u' And hand covers the lens as the harness is shown.']
+
+A woman is shown riding a camel past pyramids in Egypt.
+
+Verbs [u'is shown riding']
+parse_simple_sentence A woman is shown riding a camel past pyramids in Egypt.
+Subject A woman
+Verb is shown riding
+
+ The camel walks as the woman leans forward.
+
+Verbs [u'leans']
+parse_simple_sentence  The camel walks
+Subject The camel walks
+Verb None
+
+parse_simple_sentence the woman leans forward.
+Subject the woman
+Verb leans
+
+ And hand covers the lens as the harness is shown.
+
+Verbs [u'covers', u'is shown']
+parse_simple_sentence  And hand covers the lens
+Subject 
+Verb covers
+
+parse_simple_sentence the harness is shown.
+Subject the harness
+Verb is shown
+
+----------
+
+v_pizl41xmw7k
+[u'A child mops the floor of a hallway in a house.', u' The child sets the mop down and plays with her family member.', u' The child walks into the bedroom area and continues to mop the floor.']
+
+A child mops the floor of a hallway in a house.
+
+Verbs [u'mops']
+parse_simple_sentence A child mops the floor of a hallway in a house.
+Subject A child
+Verb mops
+
+ The child sets the mop down and plays with her family member.
+
+Verbs [u'sets', u'plays']
+parse_simple_sentence  The child sets the mop down 
+Subject The child
+Verb sets
+
+parse_simple_sentence plays with her family member.
+Subject plays
+Verb plays
+
+ The child walks into the bedroom area and continues to mop the floor.
+
+Verbs [u'walks', u'continues', u'mop']
+parse_simple_sentence  The child walks into the bedroom area 
+Subject The child
+Verb walks
+
+parse_simple_sentence continues to mop the floor.
+Subject 
+Verb continues
+
+----------
+
+v_oP77DgsbhKQ
+[u'A man is seen kneeling down on the floor speaking to the camera.', u' The man mixes up various ingredients and begins laying plaster on the floor.', u' He measures the floor and tiles and cuts out a piece of tile to lay on the floor.', u' He continues laying tiles on the floor while looking back to speak to the camera.']
+
+A man is seen kneeling down on the floor speaking to the camera.
+
+Verbs [u'is seen kneeling']
+parse_simple_sentence A man is seen kneeling down on the floor speaking to the camera.
+Subject A man
+Verb is seen kneeling
+
+ The man mixes up various ingredients and begins laying plaster on the floor.
+
+Verbs [u'mixes', u'begins laying']
+parse_simple_sentence  The man mixes up various ingredients 
+Subject The man
+Verb mixes
+
+parse_simple_sentence begins laying plaster on the floor.
+Subject begins
+Verb begins laying
+
+ He measures the floor and tiles and cuts out a piece of tile to lay on the floor.
+
+Verbs [u'measures', u'lay']
+parse_simple_sentence  He measures the floor and tiles and cuts out a piece of tile to lay on the floor.
+Subject He
+Verb measures
+
+ He continues laying tiles on the floor while looking back to speak to the camera.
+
+Verbs [u'continues laying', u'looking', u'speak']
+parse_simple_sentence  He continues laying tiles on the floor
+Subject He
+Verb continues laying
+
+parse_simple_sentence looking back to speak to the camera.
+Subject 
+Verb looking
+
+----------
+
+v_fzp5ooc727c
+[u'Two lines of young men are walking side by side down a road.', u'Then one man stands in a field holding a wooden object and begins twisting it.', u'He then bends down and grabs a ball.', u"After,the ball is placed on the ground and he picks it up and hits it as if he's playing baseball.", u'The ball is thrown back and he its it again.', u'Shortly after, a field of men are shown and they begin playing a game against one another.', u'There was a penalty and one players attempts to hit the ball into the goal from the side.', u'After,everyone is pictured lying down on the ground as if they are dead but one person begins to sit up but gets hit in the head by the ball and lays back down.', u'Lastly,the screen flashes to a black screen and the words The End are shown.']
+
+Two lines of young men are walking side by side down a road.
+
+Verbs [u'are walking']
+parse_simple_sentence Two lines of young men are walking side by side down a road.
+Subject 
+Verb are walking
+
+Then one man stands in a field holding a wooden object and begins twisting it.
+
+Verbs [u'stands', u'holding', u'begins twisting']
+parse_simple_sentence Then one man stands in a field holding a wooden object 
+Subject 
+Verb stands
+
+parse_simple_sentence begins twisting it.
+Subject begins
+Verb begins twisting
+
+He then bends down and grabs a ball.
+
+Verbs [u'bends', u'grabs']
+parse_simple_sentence He then bends down 
+Subject He
+Verb bends
+
+parse_simple_sentence grabs a ball.
+Subject 
+Verb grabs
+
+After,the ball is placed on the ground and he picks it up and hits it as if he's playing baseball.
+
+Verbs [u'is placed', u'picks', u'hits', u"'s playing"]
+parse_simple_sentence After,the ball is placed on the ground and he picks it up and hits it
+Subject 
+Verb is placed
+
+parse_simple_sentence if he's playing baseball.
+Subject 
+Verb 's playing
+
+The ball is thrown back and he its it again.
+
+Verbs [u'is thrown']
+parse_simple_sentence The ball is thrown back and he its it again.
+Subject The ball
+Verb is thrown
+
+Shortly after, a field of men are shown and they begin playing a game against one another.
+
+Verbs [u'are shown', u'begin playing']
+parse_simple_sentence Shortly after, a field of men are shown and they begin playing a game against one another.
+Subject 
+Verb are shown
+
+There was a penalty and one players attempts to hit the ball into the goal from the side.
+
+Verbs [u'was', u'attempts', u'hit']
+parse_simple_sentence There was a penalty and one players attempts to hit the ball into the goal from the side.
+Subject 
+Verb was
+
+After,everyone is pictured lying down on the ground as if they are dead but one person begins to sit up but gets hit in the head by the ball and lays back down.
+
+Verbs [u'is pictured lying', u'are', u'begins', u'sit', u'gets hit', u'lays']
+parse_simple_sentence After,everyone is pictured lying down on the ground
+Subject 
+Verb is pictured lying
+
+parse_simple_sentence if they are dead but one person begins to sit up but gets hit in the head by the ball and lays back down.
+Subject 
+Verb are
+
+Lastly,the screen flashes to a black screen and the words The End are shown.
+
+Verbs [u'are shown']
+parse_simple_sentence Lastly,the screen flashes to a black screen and the words The End are shown.
+Subject 
+Verb are shown
+
+----------
+
