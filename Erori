@@ -1,0 +1,323 @@
+1. Eroare - Prezent singular persoana a3a
+She continues dancing around the room and ends by laying on the floor.
+
+Verbs [u'continues dancing', u'laying']
+parse_simple_sentence  She continues dancing around the room 
+Subject She
+Verb continues dancing
+
+parse_simple_sentence ends by laying on the floor.
+Subject ends
+Verb laying
+
+2. Eroare - Prezent singular persoana a3a
+A dog in socks walks slowly out onto the floor as a lady films him.
+
+Verbs [u'walks']
+parse_simple_sentence  A dog in socks walks slowly out onto the floor
+Subject A dog
+Verb walks
+
+parse_simple_sentence a lady films him.
+Subject A dog
+Verb None
+
+3. Eroare - Prezent singular persoana a3a
+A little boy holding a yellow ball walks by.
+
+Verbs [u'holding']
+parse_simple_sentence  A little boy holding a yellow ball walks by.
+Subject A little boy
+Verb holding
+
+4. Eroare - Prezent singular persoana a3a
+The person rubs lotion on the piercings afterwards.
+
+Verbs []
+parse_simple_sentence  The person rubs lotion on the piercings afterwards.
+Subject None
+Verb None
+
+5. Eroare - Prezent singular persoana a3a
+The camel walks as the woman leans forward.
+
+Verbs [u'leans']
+parse_simple_sentence  The camel walks
+Subject None
+Verb None
+
+parse_simple_sentence the woman leans forward.
+Subject the woman
+Verb leans
+
+6. BUG - Despartire propozitii
+He measures the floor and tiles and cuts out a piece of tile to lay on the floor.
+
+Verbs [u'measures', u'lay']
+parse_simple_sentence  He measures the floor 
+Subject He
+Verb measures
+
+parse_simple_sentence tiles and cuts out a piece of tile to lay on the floor.
+Subject tiles and cuts
+Verb lay
+
+7. Neimplementat - Gasire subiect cu "of"
+Verbs [u'are walking']
+parse_simple_sentence Two lines of young men are walking side by side down a road.
+Subject Two lines
+Verb are walking
+
+8. BUG - Despartire propozitii
+After,the ball is placed on the ground and he picks it up and hits it as if he's playing baseball.
+
+Verbs [u'is placed', u'picks', u'hits', u"'s playing"]
+parse_simple_sentence After,the ball is placed on the ground 
+Subject the ball
+Verb is placed
+
+parse_simple_sentence he picks it up and hits it
+Subject he
+Verb picks
+
+parse_simple_sentence if he's playing baseball.
+Subject None
+Verb 's playing
+
+
+9. Neimplementat - Gasire subiect cu "Shortly after,"
+Shortly after, a field of men are shown and they begin playing a game against one another.
+
+Verbs [u'are shown', u'begin playing']
+parse_simple_sentence Shortly after, a field of men are shown 
+Subject None
+Verb are shown
+
+parse_simple_sentence they begin playing a game against one another.
+Subject they
+Verb begin playing
+
+10. Neimplementat - Gasire subiect cu "There"
+There was a penalty and one players attempts to hit the ball into the goal from the side.
+
+Verbs [u'was', u'attempts to hit']
+parse_simple_sentence There was a penalty 
+Subject None
+Verb was
+
+parse_simple_sentence one players attempts to hit the ball into the goal from the side.
+Subject one players
+Verb attempts to hit
+
+11.  BUG - Despartire propozitii
+After,everyone is pictured lying down on the ground as if they are dead but one person begins to sit up but gets hit in the head by the ball and lays back down.
+
+Verbs [u'is pictured lying', u'are', u'begins to sit', u'gets hit', u'lays']
+parse_simple_sentence After,everyone is pictured lying down on the ground
+Subject everyone
+Verb is pictured lying
+
+parse_simple_sentence if they 
+Subject everyone
+Verb None
+
+parse_simple_sentence dead but one person 
+Subject everyone
+Verb None
+
+parse_simple_sentence ns to 
+Subject everyone
+Verb None
+
+parse_simple_sentence up but gets hit in the head by the ball 
+Subject None
+Verb gets hit
+
+parse_simple_sentence lays back down.
+Subject None
+Verb lays
+
+12. Eroare - Prezent singular persoana a3a
+Lastly,the screen flashes to a black screen and the words The End are shown.
+
+Verbs [u'are shown']
+parse_simple_sentence Lastly,the screen flashes to a black screen and the words The End are shown.
+Subject the screen flashes
+Verb are shown
+
+
+13. Neimplementat - Gasire subiect cu "There"
+ There are several people standing under a canopy at a food market.
+
+Verbs [u'are', u'standing']
+parse_simple_sentence  There are several people standing under a canopy at a food market.
+Subject None
+Verb are
+
+
+14. BUG - Gasire subiect la propozitie fara subiect
+A camera pans over a snowy area and leads into a man standing on a snowboard and riding down a mountain.
+
+Verbs [u'pans', u'leads', u'standing', u'riding']
+parse_simple_sentence A camera pans over a snowy area 
+Subject A camera
+Verb pans
+
+parse_simple_sentence leads into a man standing on a snowboard 
+Subject A camera
+Verb leads
+
+parse_simple_sentence riding down a mountain.
+Subject A camera
+Verb riding
+
+15. BUG - Gasire subiect la propozitie fara subiect
+The man zooms in on himself riding down the hill and ends with him turning off the camera.
+
+Verbs [u'zooms', u'riding', u'ends', u'turning']
+parse_simple_sentence  The man zooms in on himself riding down the hill 
+Subject The man
+Verb zooms
+
+parse_simple_sentence ends with him turning off the camera.
+Subject The man
+Verb ends
+
+16. Neimplementat - Despartire propozitie cu virgula
+ He slides down again, this time landing on his back, and continues to slide down several more times.
+
+Verbs [u'slides', u'landing', u'continues to slide']
+parse_simple_sentence  He slides down again, this time landing on his back, 
+Subject He
+Verb slides
+
+parse_simple_sentence continues to slide down several more times.
+Subject He
+Verb continues to slide
+
+17. BUG - Despartire propozitii cu and
+The man is talking this whole time while the woman gets comfortable on her couch and the woman briefly talks.
+
+Verbs [u'is talking', u'gets']
+parse_simple_sentence The man is talking this whole time
+Subject The man
+Verb is talking
+
+parse_simple_sentence the woman gets comfortable on her couch and the woman briefly talks.
+Subject the woman
+Verb gets
+
+18. Neimplementat - Despartire propozitii dupa virgula
+Various clips begin to play and it briefly shows parts of a city, then most of it is of men outdoors and playing soccer on sand in a middle of city, and occasionally blue words pop up on the screen when certain plays in the game are made.
+
+Verbs [u'begin to play', u'shows', u'is', u'playing', u'pop', u'are made']
+parse_simple_sentence Various clips begin to play 
+Subject Various clips
+Verb begin to play
+
+parse_simple_sentence it briefly shows parts of a city, then most of it is of men outdoors 
+Subject it
+Verb shows
+
+parse_simple_sentence playing soccer on sand in a middle of city, 
+Subject it
+Verb playing
+
+parse_simple_sentence occasionally blue words pop up on the screen when certain plays in the game are made.
+Subject blue words
+Verb pop
+
+19. Greseala gramaticala - virgula dupa end / Neimplementat - Despartire propozitii dupa virgula / BUG - Despartire propozitii dupa and
+When the clips end the man and woman on the couch begin talking and she puts her clipboard down.
+
+Verbs [u'end', u'talking', u'puts']
+parse_simple_sentence  When the clips end the man 
+Subject None
+Verb end
+
+parse_simple_sentence woman on the couch begin talking 
+Subject woman
+Verb talking
+
+parse_simple_sentence she puts her clipboard down.
+Subject she
+Verb puts
+
+
+20. Eroare - Prezent singular persoana a3a
+The man then shares a beer with other people around him.
+
+Verbs []
+parse_simple_sentence  The man then shares a beer with other people around him.
+Subject None
+Verb None
+
+21. Neimplementat - Despartire propozitii dupa virgula
+Four kids are outside in the beach playing in the sand,two boys on the left and two girls on the right.
+
+Verbs [u'are']
+parse_simple_sentence Four kids are outside in the beach playing in the sand,two boys on the left and two girls on the right.
+Subject Four kids
+Verb are
+
+22. BUG - Despartire propozitie (parsare)
+Once they are done,both of the girls take off running to the water but then stop midway to come back and get their floats.
+
+23. BUG - Despartire propozitie (cauta gresit dupa as)
+the leaves continue to be shown blowing around as well as a machine sitting off in the distance.
+
+Verbs [u'continue to be', u'shown blowing', u'sitting']
+parse_simple_sentence  the leaves continue to be shown blowing around
+Subject the leaves
+Verb continue to be
+
+parse_simple_sentence well
+Subject the leaves
+Verb None
+
+parse_simple_sentence a machine sitting off in the distance.
+Subject a machine
+Verb sitting
+
+24. Eroare - Prezent singular persoana a3a
+ It then turns back to color and splits into multiple frames and speeds.
+
+Verbs [u'turns']
+parse_simple_sentence  It then turns back to color and splits into multiple frames and speeds.
+Subject It
+Verb turns
+
+25. BUG - Despartire propozitii
+ He tries to sit on the ball but the ball rolls away.
+
+Verbs [u'tries to sit', u'rolls']
+parse_simple_sentence  He 
+Subject None
+Verb None
+
+parse_simple_sentence s to 
+Subject None
+Verb None
+
+parse_simple_sentence on the ball but the ball rolls away.
+Subject None
+Verb rolls
+
+26. BUG-uri - Gasire subiect, Despartire propozitii
+A close up of a bike wheel is seen that leads into a person's hands pushing on the tire.
+
+Verbs [u'is seen', u'leads', u'pushing']
+parse_simple_sentence A close up of a bike wheel is seen that leads into a person's hands pushing on the tire.
+Subject None
+Verb is seen
+
+
+Total propozitii: 106
+Total greseli: 26
+Precizie: 75%
+
+Greseli din cauza:
+*Bug-uri: 10
+*Featureri Neimplementate: 7
+*Eroare - Prezent singular persoana a3a: 8
+*Greseli gramaticale: 1

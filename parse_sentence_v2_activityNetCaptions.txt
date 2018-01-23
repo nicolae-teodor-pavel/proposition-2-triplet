@@ -9,7 +9,7 @@ Subject A young woman
 Verb is seen standing
 
 parse_simple_sentence leads into her dancing.
-Subject leads
+Subject A young woman
 Verb leads
 
  The girl dances around the room while the camera captures her movements.
@@ -26,9 +26,13 @@ Verb captures
  She continues dancing around the room and ends by laying on the floor.
 
 Verbs [u'continues dancing', u'laying']
-parse_simple_sentence  She continues dancing around the room and ends by laying on the floor.
+parse_simple_sentence  She continues dancing around the room 
 Subject She
 Verb continues dancing
+
+parse_simple_sentence ends by laying on the floor.
+Subject ends
+Verb laying
 
 ----------
 
@@ -46,7 +50,7 @@ Verb starts
 
 Verbs [u'are', u'demonstrating']
 parse_simple_sentence  A man and woman are in a living room demonstrating exercises.
-Subject A man
+Subject A man and woman
 Verb are
 
  The woman lays on the ground.
@@ -69,10 +73,10 @@ Verb does
 
  The woman begins to do small sit ups.
 
-Verbs [u'begins', u'do']
+Verbs [u'begins to do']
 parse_simple_sentence  The woman begins to do small sit ups.
 Subject The woman
-Verb begins
+Verb begins to do
 
  The woman ends with a final title logo sequence.
 
@@ -90,23 +94,23 @@ Two people are seen moving around a kitchen quickly performing various tasks and
 
 Verbs [u'are seen moving', u'performing', u'sitting']
 parse_simple_sentence Two people are seen moving around a kitchen quickly performing various tasks 
-Subject 
+Subject Two people
 Verb are seen moving
 
 parse_simple_sentence sitting down.
-Subject 
+Subject Two people
 Verb sitting
 
  They then wax down a ski in the kitchen while continuing to move around.
 
-Verbs [u'wax', u'continuing', u'move']
+Verbs [u'wax', u'continuing to move']
 parse_simple_sentence  They then wax down a ski in the kitchen
 Subject They
 Verb wax
 
 parse_simple_sentence continuing to move around.
-Subject 
-Verb continuing
+Subject They
+Verb continuing to move
 
 ----------
 
@@ -128,7 +132,7 @@ Subject A dog
 Verb walks
 
 parse_simple_sentence a lady films him.
-Subject a lady films
+Subject A dog
 Verb None
 
  The dog turns around and goes back to the other room.
@@ -139,7 +143,7 @@ Subject The dog
 Verb turns
 
 parse_simple_sentence goes back to the other room.
-Subject 
+Subject The dog
 Verb goes
 
 ----------
@@ -151,7 +155,7 @@ A woman and a man are sitting on the sidewalk playing music.
 
 Verbs [u'are sitting']
 parse_simple_sentence A woman and a man are sitting on the sidewalk playing music.
-Subject A woman
+Subject A woman and a man
 Verb are sitting
 
  People stand next to them and watch them play.
@@ -162,7 +166,7 @@ Subject People
 Verb stand
 
 parse_simple_sentence watch them play.
-Subject 
+Subject People
 Verb watch
 
  A little boy holding a yellow ball walks by.
@@ -193,7 +197,7 @@ Verb is seen sitting
 
  The person next to her then piercing one ear followed by the other.
 
-Verbs [u'piercing', u'followed']
+Verbs [u'piercing']
 parse_simple_sentence  The person next to her then piercing one ear followed by the other.
 Subject The person
 Verb piercing
@@ -202,7 +206,7 @@ Verb piercing
 
 Verbs []
 parse_simple_sentence  The person rubs lotion on the piercings afterwards.
-Subject The person
+Subject None
 Verb None
 
 ----------
@@ -221,7 +225,7 @@ Verb is shown riding
 
 Verbs [u'leans']
 parse_simple_sentence  The camel walks
-Subject The camel walks
+Subject None
 Verb None
 
 parse_simple_sentence the woman leans forward.
@@ -232,7 +236,7 @@ Verb leans
 
 Verbs [u'covers', u'is shown']
 parse_simple_sentence  And hand covers the lens
-Subject 
+Subject And hand
 Verb covers
 
 parse_simple_sentence the harness is shown.
@@ -259,19 +263,19 @@ Subject The child
 Verb sets
 
 parse_simple_sentence plays with her family member.
-Subject plays
+Subject The child
 Verb plays
 
  The child walks into the bedroom area and continues to mop the floor.
 
-Verbs [u'walks', u'continues', u'mop']
+Verbs [u'walks', u'continues to mop']
 parse_simple_sentence  The child walks into the bedroom area 
 Subject The child
 Verb walks
 
 parse_simple_sentence continues to mop the floor.
-Subject 
-Verb continues
+Subject The child
+Verb continues to mop
 
 ----------
 
@@ -293,26 +297,30 @@ Subject The man
 Verb mixes
 
 parse_simple_sentence begins laying plaster on the floor.
-Subject begins
+Subject The man
 Verb begins laying
 
  He measures the floor and tiles and cuts out a piece of tile to lay on the floor.
 
 Verbs [u'measures', u'lay']
-parse_simple_sentence  He measures the floor and tiles and cuts out a piece of tile to lay on the floor.
+parse_simple_sentence  He measures the floor 
 Subject He
 Verb measures
 
+parse_simple_sentence tiles and cuts out a piece of tile to lay on the floor.
+Subject tiles and cuts
+Verb lay
+
  He continues laying tiles on the floor while looking back to speak to the camera.
 
-Verbs [u'continues laying', u'looking', u'speak']
+Verbs [u'continues laying', u'looking back to speak']
 parse_simple_sentence  He continues laying tiles on the floor
 Subject He
 Verb continues laying
 
 parse_simple_sentence looking back to speak to the camera.
-Subject 
-Verb looking
+Subject He
+Verb looking back to speak
 
 ----------
 
@@ -323,18 +331,18 @@ Two lines of young men are walking side by side down a road.
 
 Verbs [u'are walking']
 parse_simple_sentence Two lines of young men are walking side by side down a road.
-Subject 
+Subject Two lines
 Verb are walking
 
 Then one man stands in a field holding a wooden object and begins twisting it.
 
 Verbs [u'stands', u'holding', u'begins twisting']
 parse_simple_sentence Then one man stands in a field holding a wooden object 
-Subject 
+Subject one man
 Verb stands
 
 parse_simple_sentence begins twisting it.
-Subject begins
+Subject one man
 Verb begins twisting
 
 He then bends down and grabs a ball.
@@ -345,18 +353,22 @@ Subject He
 Verb bends
 
 parse_simple_sentence grabs a ball.
-Subject 
+Subject He
 Verb grabs
 
 After,the ball is placed on the ground and he picks it up and hits it as if he's playing baseball.
 
 Verbs [u'is placed', u'picks', u'hits', u"'s playing"]
-parse_simple_sentence After,the ball is placed on the ground and he picks it up and hits it
-Subject 
+parse_simple_sentence After,the ball is placed on the ground 
+Subject the ball
 Verb is placed
 
+parse_simple_sentence he picks it up and hits it
+Subject he
+Verb picks
+
 parse_simple_sentence if he's playing baseball.
-Subject 
+Subject None
 Verb 's playing
 
 The ball is thrown back and he its it again.
@@ -369,34 +381,1267 @@ Verb is thrown
 Shortly after, a field of men are shown and they begin playing a game against one another.
 
 Verbs [u'are shown', u'begin playing']
-parse_simple_sentence Shortly after, a field of men are shown and they begin playing a game against one another.
-Subject 
+parse_simple_sentence Shortly after, a field of men are shown 
+Subject None
 Verb are shown
+
+parse_simple_sentence they begin playing a game against one another.
+Subject they
+Verb begin playing
 
 There was a penalty and one players attempts to hit the ball into the goal from the side.
 
-Verbs [u'was', u'attempts', u'hit']
-parse_simple_sentence There was a penalty and one players attempts to hit the ball into the goal from the side.
-Subject 
+Verbs [u'was', u'attempts to hit']
+parse_simple_sentence There was a penalty 
+Subject None
 Verb was
+
+parse_simple_sentence one players attempts to hit the ball into the goal from the side.
+Subject one players
+Verb attempts to hit
 
 After,everyone is pictured lying down on the ground as if they are dead but one person begins to sit up but gets hit in the head by the ball and lays back down.
 
-Verbs [u'is pictured lying', u'are', u'begins', u'sit', u'gets hit', u'lays']
+Verbs [u'is pictured lying', u'are', u'begins to sit', u'gets hit', u'lays']
 parse_simple_sentence After,everyone is pictured lying down on the ground
-Subject 
+Subject everyone
 Verb is pictured lying
 
-parse_simple_sentence if they are dead but one person begins to sit up but gets hit in the head by the ball and lays back down.
-Subject 
-Verb are
+parse_simple_sentence if they 
+Subject everyone
+Verb None
+
+parse_simple_sentence dead but one person 
+Subject everyone
+Verb None
+
+parse_simple_sentence ns to 
+Subject everyone
+Verb None
+
+parse_simple_sentence up but gets hit in the head by the ball 
+Subject None
+Verb gets hit
+
+parse_simple_sentence lays back down.
+Subject None
+Verb lays
 
 Lastly,the screen flashes to a black screen and the words The End are shown.
 
 Verbs [u'are shown']
 parse_simple_sentence Lastly,the screen flashes to a black screen and the words The End are shown.
-Subject 
+Subject the screen flashes
 Verb are shown
 
 ----------
 
+v_fN2DiOswmOA
+[u'The screen shows the title of preparing a Chilean Hulte salad dish.', u' A person is mixing salad ingredients in a large bowl.', u' There is information shown about Dr.', u" Rachel Collin's trip to Chile.", u' There are several people standing under a canopy at a food market.', u' Two customers make a purchase and give money to the seller and give the camera a thumbs up.', u' The chef is showing hulte placed on a kitchen counter.', u' The chef is slicing the hulte in circular bite size pieces.', u' A woman eats the cut pieces of hulte.', u' The chef chops some cilantro on the kitchen counter.', u' Then the chef places the ingredients in a salad bowl.', u' The finished product is shown on screen, followed by a group of people sitting together and enjoying the salad.', u' The end credits are displayed on the screen.']
+
+The screen shows the title of preparing a Chilean Hulte salad dish.
+
+Verbs [u'shows', u'preparing']
+parse_simple_sentence The screen shows the title of preparing a Chilean Hulte salad dish.
+Subject The screen
+Verb shows
+
+ A person is mixing salad ingredients in a large bowl.
+
+Verbs [u'is mixing']
+parse_simple_sentence  A person is mixing salad ingredients in a large bowl.
+Subject A person
+Verb is mixing
+
+ There is information shown about Dr.
+
+Verbs [u'is', u'shown']
+parse_simple_sentence  There is information shown about Dr.
+Subject None
+Verb is
+
+ Rachel Collin's trip to Chile.
+
+Verbs []
+parse_simple_sentence  Rachel Collin's trip to Chile.
+Subject None
+Verb None
+
+ There are several people standing under a canopy at a food market.
+
+Verbs [u'are', u'standing']
+parse_simple_sentence  There are several people standing under a canopy at a food market.
+Subject None
+Verb are
+
+ Two customers make a purchase and give money to the seller and give the camera a thumbs up.
+
+Verbs [u'make', u'give', u'give']
+parse_simple_sentence  Two customers make a purchase 
+Subject Two customers
+Verb make
+
+parse_simple_sentence give money to the seller 
+Subject Two customers
+Verb give
+
+parse_simple_sentence give the camera a thumbs up.
+Subject Two customers
+Verb give
+
+ The chef is showing hulte placed on a kitchen counter.
+
+Verbs [u'is showing', u'placed']
+parse_simple_sentence  The chef is showing hulte placed on a kitchen counter.
+Subject The chef
+Verb is showing
+
+ The chef is slicing the hulte in circular bite size pieces.
+
+Verbs [u'is slicing']
+parse_simple_sentence  The chef is slicing the hulte in circular bite size pieces.
+Subject The chef
+Verb is slicing
+
+ A woman eats the cut pieces of hulte.
+
+Verbs [u'eats']
+parse_simple_sentence  A woman eats the cut pieces of hulte.
+Subject A woman
+Verb eats
+
+ The chef chops some cilantro on the kitchen counter.
+
+Verbs [u'chops']
+parse_simple_sentence  The chef chops some cilantro on the kitchen counter.
+Subject The chef
+Verb chops
+
+ Then the chef places the ingredients in a salad bowl.
+
+Verbs [u'places']
+parse_simple_sentence  Then the chef places the ingredients in a salad bowl.
+Subject the chef
+Verb places
+
+ The finished product is shown on screen, followed by a group of people sitting together and enjoying the salad.
+
+Verbs [u'is shown', u'sitting', u'enjoying']
+parse_simple_sentence  The finished product is shown on screen,
+Subject The finished product
+Verb is shown
+
+parse_simple_sentence a group of people sitting together 
+Subject a group
+Verb sitting
+
+parse_simple_sentence enjoying the salad.
+Subject a group
+Verb enjoying
+
+ The end credits are displayed on the screen.
+
+Verbs [u'are displayed']
+parse_simple_sentence  The end credits are displayed on the screen.
+Subject The end credits
+Verb are displayed
+
+----------
+
+v_t0ajvfx6dgA
+[u'A man in a suit is sitting behind a desk.', u' People are playing lacrosse on a field of grass.', u' A person in a yellow uniform is standing in front of a net blocking balls.']
+
+A man in a suit is sitting behind a desk.
+
+Verbs [u'is sitting']
+parse_simple_sentence A man in a suit is sitting behind a desk.
+Subject A man
+Verb is sitting
+
+ People are playing lacrosse on a field of grass.
+
+Verbs [u'are playing']
+parse_simple_sentence  People are playing lacrosse on a field of grass.
+Subject People
+Verb are playing
+
+ A person in a yellow uniform is standing in front of a net blocking balls.
+
+Verbs [u'is standing']
+parse_simple_sentence  A person in a yellow uniform is standing in front of a net blocking balls.
+Subject A person
+Verb is standing
+
+----------
+
+v_IoiDAHNryTk
+[u'A girl is seen climbing across a set of monkey bars followed by her waving to the camera.', u' She climbs her way back on the bars and jumps down mid way through.']
+
+A girl is seen climbing across a set of monkey bars followed by her waving to the camera.
+
+Verbs [u'is seen climbing']
+parse_simple_sentence A girl is seen climbing across a set of monkey bars followed by her waving to the camera.
+Subject A girl
+Verb is seen climbing
+
+ She climbs her way back on the bars and jumps down mid way through.
+
+Verbs [u'climbs']
+parse_simple_sentence  She climbs her way back on the bars and jumps down mid way through.
+Subject She
+Verb climbs
+
+----------
+
+v__yWADgOFxP0
+[u'A camera pans over a snowy area and leads into a man standing on a snowboard and riding down a mountain.', u' The man zooms in on himself riding down the hill and ends with him turning off the camera.']
+
+A camera pans over a snowy area and leads into a man standing on a snowboard and riding down a mountain.
+
+Verbs [u'pans', u'leads', u'standing', u'riding']
+parse_simple_sentence A camera pans over a snowy area 
+Subject A camera
+Verb pans
+
+parse_simple_sentence leads into a man standing on a snowboard 
+Subject A camera
+Verb leads
+
+parse_simple_sentence riding down a mountain.
+Subject A camera
+Verb riding
+
+ The man zooms in on himself riding down the hill and ends with him turning off the camera.
+
+Verbs [u'zooms', u'riding', u'ends', u'turning']
+parse_simple_sentence  The man zooms in on himself riding down the hill 
+Subject The man
+Verb zooms
+
+parse_simple_sentence ends with him turning off the camera.
+Subject The man
+Verb ends
+
+----------
+
+v_AGgJVF3nT6I
+[u'A playroom is seen followed by a young boy sliding down a slide and climbing back up again.', u' He slides down again, this time landing on his back, and continues to slide down several more times.']
+
+A playroom is seen followed by a young boy sliding down a slide and climbing back up again.
+
+Verbs [u'is seen', u'sliding', u'climbing']
+parse_simple_sentence A playroom is seen
+Subject A playroom
+Verb is seen
+
+parse_simple_sentence a young boy sliding down a slide 
+Subject a young boy
+Verb sliding
+
+parse_simple_sentence climbing back up again.
+Subject a young boy
+Verb climbing
+
+ He slides down again, this time landing on his back, and continues to slide down several more times.
+
+Verbs [u'slides', u'landing', u'continues to slide']
+parse_simple_sentence  He slides down again, this time landing on his back, 
+Subject He
+Verb slides
+
+parse_simple_sentence continues to slide down several more times.
+Subject He
+Verb continues to slide
+
+----------
+
+v_XD3yFrJHiv8
+[u'A man and woman are sitting on red couches with sports jerseys hanging on the wall and a blue screen on the wall behind them in the middle of them.', u'The woman picks up a clipboard next to her and smooths out the papers that are on top of it while smiling, crosses her legs and sits back.', u'The man is talking this whole time while the woman gets comfortable on her couch and the woman briefly talks.', u'Various clips begin to play and it briefly shows parts of a city, then most of it is of men outdoors and playing soccer on sand in a middle of city, and occasionally blue words pop up on the screen when certain plays in the game are made.', u' When the clips end the man and woman on the couch begin talking and she puts her clipboard down.']
+
+A man and woman are sitting on red couches with sports jerseys hanging on the wall and a blue screen on the wall behind them in the middle of them.
+
+Verbs [u'are sitting', u'hanging']
+parse_simple_sentence A man and woman are sitting on red couches with sports jerseys hanging on the wall and a blue screen on the wall behind them in the middle of them.
+Subject A man and woman
+Verb are sitting
+
+The woman picks up a clipboard next to her and smooths out the papers that are on top of it while smiling, crosses her legs and sits back.
+
+Verbs [u'picks', u'smooths', u'are', u'smiling', u'crosses', u'sits']
+parse_simple_sentence The woman picks up a clipboard next to her 
+Subject The woman
+Verb picks
+
+parse_simple_sentence smooths out the papers that are on top of it
+Subject The woman
+Verb smooths
+
+parse_simple_sentence smiling, crosses her legs 
+Subject The woman
+Verb smiling
+
+parse_simple_sentence sits back.
+Subject The woman
+Verb sits
+
+The man is talking this whole time while the woman gets comfortable on her couch and the woman briefly talks.
+
+Verbs [u'is talking', u'gets']
+parse_simple_sentence The man is talking this whole time
+Subject The man
+Verb is talking
+
+parse_simple_sentence the woman gets comfortable on her couch and the woman briefly talks.
+Subject the woman
+Verb gets
+
+Various clips begin to play and it briefly shows parts of a city, then most of it is of men outdoors and playing soccer on sand in a middle of city, and occasionally blue words pop up on the screen when certain plays in the game are made.
+
+Verbs [u'begin to play', u'shows', u'is', u'playing', u'pop', u'are made']
+parse_simple_sentence Various clips begin to play 
+Subject Various clips
+Verb begin to play
+
+parse_simple_sentence it briefly shows parts of a city, then most of it is of men outdoors 
+Subject it
+Verb shows
+
+parse_simple_sentence playing soccer on sand in a middle of city, 
+Subject it
+Verb playing
+
+parse_simple_sentence occasionally blue words pop up on the screen when certain plays in the game are made.
+Subject blue words
+Verb pop
+
+ When the clips end the man and woman on the couch begin talking and she puts her clipboard down.
+
+Verbs [u'end', u'talking', u'puts']
+parse_simple_sentence  When the clips end the man 
+Subject None
+Verb end
+
+parse_simple_sentence woman on the couch begin talking 
+Subject woman
+Verb talking
+
+parse_simple_sentence she puts her clipboard down.
+Subject she
+Verb puts
+
+----------
+
+v_lZKrd84QElk
+[u'The former president is seen walking in a large field next to a woman and surrounded by a large crowd.', u' The man gives a speech while people cheering and he shakes hands with others.', u' The man then shares a beer with other people around him.']
+
+The former president is seen walking in a large field next to a woman and surrounded by a large crowd.
+
+Verbs [u'is seen walking', u'surrounded']
+parse_simple_sentence The former president is seen walking in a large field next to a woman 
+Subject The former president
+Verb is seen walking
+
+parse_simple_sentence surrounded by a large crowd.
+Subject The former president
+Verb surrounded
+
+ The man gives a speech while people cheering and he shakes hands with others.
+
+Verbs [u'gives', u'cheering', u'shakes']
+parse_simple_sentence  The man gives a speech
+Subject The man
+Verb gives
+
+parse_simple_sentence people cheering 
+Subject people
+Verb cheering
+
+parse_simple_sentence he shakes hands with others.
+Subject he
+Verb shakes
+
+ The man then shares a beer with other people around him.
+
+Verbs []
+parse_simple_sentence  The man then shares a beer with other people around him.
+Subject None
+Verb None
+
+----------
+
+v_6lYTHj9vImo
+[u'Four kids are outside in the beach playing in the sand,two boys on the left and two girls on the right.', u'The girls have about six sand castles and a large circle surrounding it filled with water.', u'They then take off running to the beach to grab more water as the boy comes and looks at their work.', u'Once they are done,both of the girls take off running to the water but then stop midway to come back and get their floats.']
+
+Four kids are outside in the beach playing in the sand,two boys on the left and two girls on the right.
+
+Verbs [u'are']
+parse_simple_sentence Four kids are outside in the beach playing in the sand,two boys on the left and two girls on the right.
+Subject Four kids
+Verb are
+
+The girls have about six sand castles and a large circle surrounding it filled with water.
+
+Verbs [u'have', u'surrounding', u'filled']
+parse_simple_sentence The girls have about six sand castles 
+Subject The girls
+Verb have
+
+parse_simple_sentence a large circle surrounding it filled with water.
+Subject a large circle
+Verb surrounding
+
+They then take off running to the beach to grab more water as the boy comes and looks at their work.
+
+Verbs [u'take', u'running', u'grab', u'comes', u'looks']
+parse_simple_sentence They then take off running to the beach to grab more water
+Subject They
+Verb take
+
+parse_simple_sentence the boy comes 
+Subject the boy
+Verb comes
+
+parse_simple_sentence looks at their work.
+Subject the boy
+Verb looks
+
+Once they are done,both of the girls take off running to the water but then stop midway to come back and get their floats.
+
+Verbs [u'are done', u'take', u'running', u'stop', u'come', u'get']
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+Warning: parsing empty text
+parse_simple_sentence Once they 
+Subject None
+Verb None
+
+parse_simple_sentence done,both of the girls take off running to the water but then 
+Subject None
+Verb take
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then s
+Subject None
+Verb None
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then st
+Subject None
+Verb None
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then sto
+Subject None
+Verb None
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop 
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop m
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop mi
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop mid
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midw
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midwa
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway 
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway t
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to 
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to c
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to co
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to com
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to come
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to come 
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to come b
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to come ba
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to come bac
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to come back
+Subject None
+Verb stop
+
+parse_simple_sentence e,both of the girls 
+Subject None
+Verb None
+
+parse_simple_sentence  off 
+Subject None
+Verb None
+
+parse_simple_sentence 
+Warning: parsing empty text
+Warning: parsing empty text
+Subject None
+Verb None
+
+parse_simple_sentence to the water but then stop midway to come back 
+Subject None
+Verb stop
+
+parse_simple_sentence get their floats.
+Subject None
+Verb get
+
+----------
+
+v_E3QtX6r9QX0
+[u'A large pile of leaves are seen being blown around with shots of a blower being shown.', u' the leaves continue to be shown blowing around as well as a machine sitting off in the distance.']
+
+A large pile of leaves are seen being blown around with shots of a blower being shown.
+
+Verbs [u'are seen being blown', u'being shown']
+parse_simple_sentence A large pile of leaves are seen being blown around with shots of a blower being shown.
+Subject A large pile
+Verb are seen being blown
+
+ the leaves continue to be shown blowing around as well as a machine sitting off in the distance.
+
+Verbs [u'continue to be', u'shown blowing', u'sitting']
+parse_simple_sentence  the leaves continue to be shown blowing around
+Subject the leaves
+Verb continue to be
+
+parse_simple_sentence well
+Subject the leaves
+Verb None
+
+parse_simple_sentence a machine sitting off in the distance.
+Subject a machine
+Verb sitting
+
+----------
+
+v_iYxj8a1TPYk
+[u'A basketball player is seen dribbling a ball in various shots for the camera and leads into the player making baskets over and over again.', u' The man is then seen speaking to the camera and transitions into him scoring several more baskets.']
+
+A basketball player is seen dribbling a ball in various shots for the camera and leads into the player making baskets over and over again.
+
+Verbs [u'is seen dribbling', u'leads', u'making']
+parse_simple_sentence A basketball player is seen dribbling a ball in various shots for the camera 
+Subject A basketball player
+Verb is seen dribbling
+
+parse_simple_sentence leads into the player making baskets over and over again.
+Subject A basketball player
+Verb leads
+
+ The man is then seen speaking to the camera and transitions into him scoring several more baskets.
+
+Verbs [u'is', u'seen speaking', u'scoring']
+parse_simple_sentence  The man is then seen speaking to the camera 
+Subject The man
+Verb is
+
+parse_simple_sentence transitions into him scoring several more baskets.
+Subject transitions
+Verb scoring
+
+----------
+
+v_cp52LdlmlUk
+[u'People are standing in a room working out.', u' They are stepping up and down on small stepping stools.', u' They continue working out in the room.']
+
+People are standing in a room working out.
+
+Verbs [u'are standing', u'working']
+parse_simple_sentence People are standing in a room working out.
+Subject People
+Verb are standing
+
+ They are stepping up and down on small stepping stools.
+
+Verbs [u'are stepping']
+parse_simple_sentence  They are stepping up and down on small stepping stools.
+Subject They
+Verb are stepping
+
+ They continue working out in the room.
+
+Verbs [u'continue working']
+parse_simple_sentence  They continue working out in the room.
+Subject They
+Verb continue working
+
+----------
+
+v_bpg2PC2neQM
+[u'A black and white video is being played of people playing lacrosse on a field.', u' It then turns back to color and splits into multiple frames and speeds.', u' The video includes numerous clips of players in lacrosse games, hitting the ball toward opposing goals.']
+
+A black and white video is being played of people playing lacrosse on a field.
+
+Verbs [u'is being played', u'playing']
+parse_simple_sentence A black and white video is being played of people playing lacrosse on a field.
+Subject A black and white video
+Verb is being played
+
+ It then turns back to color and splits into multiple frames and speeds.
+
+Verbs [u'turns']
+parse_simple_sentence  It then turns back to color and splits into multiple frames and speeds.
+Subject It
+Verb turns
+
+ The video includes numerous clips of players in lacrosse games, hitting the ball toward opposing goals.
+
+Verbs [u'includes', u'hitting', u'opposing']
+parse_simple_sentence  The video includes numerous clips of players in lacrosse games, hitting the ball toward opposing goals.
+Subject The video
+Verb includes
+
+----------
+
+v_RgzbNJPchqc
+[u'A man is playing the bagpipes in front of people.', u' The people on the couch in front of him start laughing.']
+
+A man is playing the bagpipes in front of people.
+
+Verbs [u'is playing']
+parse_simple_sentence A man is playing the bagpipes in front of people.
+Subject A man
+Verb is playing
+
+ The people on the couch in front of him start laughing.
+
+Verbs [u'start']
+parse_simple_sentence  The people on the couch in front of him start laughing.
+Subject The people
+Verb start
+
+----------
+
+v__zHSfEhEqkU
+[u'A man is seen padding a canoe along the water while the camera captures him from several angles.', u' The man continues riding around followed by performing several ways to turn the canoe around.']
+
+A man is seen padding a canoe along the water while the camera captures him from several angles.
+
+Verbs [u'is seen padding', u'captures']
+parse_simple_sentence A man is seen padding a canoe along the water
+Subject A man
+Verb is seen padding
+
+parse_simple_sentence the camera captures him from several angles.
+Subject the camera
+Verb captures
+
+ The man continues riding around followed by performing several ways to turn the canoe around.
+
+Verbs [u'continues riding', u'performing', u'turn']
+parse_simple_sentence  The man continues riding around
+Subject The man
+Verb continues riding
+
+parse_simple_sentence performing several ways to turn the canoe around.
+Subject The man
+Verb performing
+
+----------
+
+v_EsVxUf4Ae2c
+[u'A man is standing on ice with his pole standing straight up beside him.', u' The man grabs his fishing pole and starts fishing in the hole in the ice.', u' The man appears to have caught something and kneels down to pull his fishing line by hand.', u' The man pulls a fish out of the water and poses with it.', u" The man unhooks the hook from the fish's mouth.", u' The man kisses the fish and releases it back into the hole.']
+
+A man is standing on ice with his pole standing straight up beside him.
+
+Verbs [u'is standing', u'standing straight']
+parse_simple_sentence A man is standing on ice with his pole standing straight up beside him.
+Subject A man
+Verb is standing
+
+ The man grabs his fishing pole and starts fishing in the hole in the ice.
+
+Verbs [u'grabs', u'starts']
+parse_simple_sentence  The man grabs his fishing pole 
+Subject The man
+Verb grabs
+
+parse_simple_sentence starts fishing in the hole in the ice.
+Subject The man
+Verb starts
+
+ The man appears to have caught something and kneels down to pull his fishing line by hand.
+
+Verbs [u'appears to have', u'caught', u'kneels down to pull']
+parse_simple_sentence  The man appears to have caught something 
+Subject The man
+Verb appears to have
+
+parse_simple_sentence kneels down to pull his fishing line by hand.
+Subject The man
+Verb kneels down to pull
+
+ The man pulls a fish out of the water and poses with it.
+
+Verbs [u'pulls', u'poses']
+parse_simple_sentence  The man pulls a fish out of the water 
+Subject The man
+Verb pulls
+
+parse_simple_sentence poses with it.
+Subject The man
+Verb poses
+
+ The man unhooks the hook from the fish's mouth.
+
+Verbs [u'unhooks']
+parse_simple_sentence  The man unhooks the hook from the fish's mouth.
+Subject The man
+Verb unhooks
+
+ The man kisses the fish and releases it back into the hole.
+
+Verbs [u'kisses', u'releases']
+parse_simple_sentence  The man kisses the fish 
+Subject The man
+Verb kisses
+
+parse_simple_sentence releases it back into the hole.
+Subject The man
+Verb releases
+
+----------
+
+v_---9CpRcKoU
+[u'A man was sitting inside a room.', u' He is holding a bowl of noodles and broth.', u' He is drinking the broth from a bowl.']
+
+A man was sitting inside a room.
+
+Verbs [u'was sitting']
+parse_simple_sentence A man was sitting inside a room.
+Subject A man
+Verb was sitting
+
+ He is holding a bowl of noodles and broth.
+
+Verbs [u'is holding']
+parse_simple_sentence  He is holding a bowl of noodles and broth.
+Subject He
+Verb is holding
+
+ He is drinking the broth from a bowl.
+
+Verbs [u'is drinking']
+parse_simple_sentence  He is drinking the broth from a bowl.
+Subject He
+Verb is drinking
+
+----------
+
+v_epqnpUCVLK8
+[u'A little boy is laying on an exercise ball.', u' The boy falls of and gets back on the ball before he falls off again.', u' He tries to sit on the ball but the ball rolls away.', u' He retrieves it and continues to sit on and fall off the ball.']
+
+A little boy is laying on an exercise ball.
+
+Verbs [u'is laying']
+parse_simple_sentence A little boy is laying on an exercise ball.
+Subject A little boy
+Verb is laying
+
+ The boy falls of and gets back on the ball before he falls off again.
+
+Verbs [u'falls', u'gets', u'falls']
+parse_simple_sentence  The boy falls of 
+Subject The boy
+Verb falls
+
+parse_simple_sentence gets back on the ball
+Subject The boy
+Verb gets
+
+parse_simple_sentence he falls off again.
+Subject he
+Verb falls
+
+ He tries to sit on the ball but the ball rolls away.
+
+Verbs [u'tries to sit', u'rolls']
+parse_simple_sentence  He 
+Subject None
+Verb None
+
+parse_simple_sentence s to 
+Subject None
+Verb None
+
+parse_simple_sentence on the ball but the ball rolls away.
+Subject None
+Verb rolls
+
+ He retrieves it and continues to sit on and fall off the ball.
+
+Verbs [u'retrieves', u'continues to sit', u'fall']
+parse_simple_sentence  He retrieves it 
+Subject He
+Verb retrieves
+
+parse_simple_sentence continues to sit on 
+Subject He
+Verb continues to sit
+
+parse_simple_sentence fall off the ball.
+Subject He
+Verb fall
+
+----------
+
+v_GFE2wAi9fjo
+[u'A woman puts a pair of shoes on while sitting in an office chair.', u' The woman buckles her shoes.']
+
+A woman puts a pair of shoes on while sitting in an office chair.
+
+Verbs [u'puts', u'sitting']
+parse_simple_sentence A woman puts a pair of shoes on
+Subject A woman
+Verb puts
+
+parse_simple_sentence sitting in an office chair.
+Subject A woman
+Verb sitting
+
+ The woman buckles her shoes.
+
+Verbs [u'buckles']
+parse_simple_sentence  The woman buckles her shoes.
+Subject The woman
+Verb buckles
+
+----------
+
+v_W19-fYOO9sg
+[u"A close up of a bike wheel is seen that leads into a person's hands pushing on the tire.", u' The person uses a tool along the tire to help move it along.', u" The person finally pushes the tire along it's sides."]
+
+A close up of a bike wheel is seen that leads into a person's hands pushing on the tire.
+
+Verbs [u'is seen', u'leads', u'pushing']
+parse_simple_sentence A close up of a bike wheel is seen that leads into a person's hands pushing on the tire.
+Subject None
+Verb is seen
+
+ The person uses a tool along the tire to help move it along.
+
+Verbs [u'uses', u'help move']
+parse_simple_sentence  The person uses a tool along the tire to help move it along.
+Subject The person
+Verb uses
+
+ The person finally pushes the tire along it's sides.
+
+Verbs [u'pushes', u"'s"]
+parse_simple_sentence  The person finally pushes the tire along it's sides.
+Subject The person
+Verb pushes
+
+----------
+
+106
